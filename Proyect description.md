@@ -13,9 +13,9 @@ See SwaggerUI.pdf file or http://localhost:7000/api_docs
 
 3 facades:
 
-- /api/auth
-- /api/me
-- /api/admin
+- /api/auth: login, logout, register new user
+- /api/me: modify logged id user data
+- /api/admin: admin CRUD operations on users
 
 [Top](#proyect-description)
 
