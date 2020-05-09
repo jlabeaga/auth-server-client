@@ -21,14 +21,14 @@ See SwaggerUI.pdf file or http://localhost:7000/api_docs
 
 ## Roles, Pages and Urls
 
-| Role            | Page          | Url             |
-| --------------- | ------------- | --------------- |
-| Unauthenticated | LoginPage:    | Unauthenticated | /login |
-| Unauthenticated | RegisterPage: | /register       |
-| User            | EditMePage:   | /editme         |
-| Admin           | UserListPage: | /userlist       |
-| Admin           | NewUserPage:  | /newuser        |
-| Admin           | EditUserPage: | /edituser/:id   |
+| Role            | Page          | Url           |
+| --------------- | ------------- | ------------- |
+| Unauthenticated | LoginPage:    | /login        |
+| Unauthenticated | RegisterPage: | /register     |
+| User            | EditMePage:   | /editme       |
+| Admin           | UserListPage: | /userlist     |
+| Admin           | NewUserPage:  | /newuser      |
+| Admin           | EditUserPage: | /edituser/:id |
 
 [Top](#proyect-description)
 
@@ -56,6 +56,7 @@ State
 
 - isLoggedIn: boolean
 - role: enum( USER, ADMIN )
+- token: JWT token
 - currentUser: User
 - userList: [User]
 
