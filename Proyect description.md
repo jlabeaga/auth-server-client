@@ -54,9 +54,7 @@ See SwaggerUI.pdf file or http://localhost:7000/api_docs
 
 State
 
-- isLoggedIn: boolean
-- role: enum( USER, ADMIN )
-- token: JWT token
+- loginData: boolean
 - currentUser: User
 - userList: [User]
 
